@@ -9,7 +9,7 @@ export default function Dishes() {
   const eachDish = () => {
     return menuObject.map((ele) => {
       return (
-        <div>
+        <div style={{ backgroundColor: "white" }}>
           <img src={ele.image} alt={ele.title} />
 
           <h3>{ele.title}</h3>
