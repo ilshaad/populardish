@@ -3,7 +3,19 @@
   background-color: bisque;
   width: 100vw;
   height: 100vh;
+
+  display: flex;
 }
+
+#populardish {
+  width: 70%;
+  overflow: auto;
+}
+
+#myorder {
+  width: 30%;
+}
+
 /* 
 .App-logo {
   height: 40vmin;

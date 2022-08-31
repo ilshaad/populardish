@@ -6,7 +6,15 @@ import PopularDish from "./components/PopularDish/PopularDish";
 function App() {
   return (
     <div className="App">
-      <PopularDish />
+      {/* popular dish */}
+      <div id="populardish">
+        <PopularDish />
+      </div>
+
+      {/* my order */}
+      <div id="myorder">
+        <h3>My order</h3>
+      </div>
     </div>
   );
 }
