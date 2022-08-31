@@ -10,7 +10,7 @@ export default function PopularDish() {
     <div>
       <h1>Popular dishes</h1>
 
-      {dishes()}
+      <div>{dishes()}</div>
     </div>
   );
 }
